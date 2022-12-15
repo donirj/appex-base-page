@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
 }
 
 :root{
@@ -244,23 +245,21 @@ nav .nav-bar .logo a{
 .container0 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
-.container0 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
 .container1 {
-    margin-top: 200px;
     margin-left: 50px;
     display: flex;
     flex-direction: column;
     justify-content: left;
     margin-right: 30px;
+    width: 700px;
+    margin-top: 200px;
 }
+
 
 .paragraph1{
     margin-top: 30px;
@@ -270,14 +269,40 @@ nav .nav-bar .logo a{
 
 }
 
+.button1{
+    background-color: lightseagreen;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 
-/* 
+.spaceBlue{
+    transform: translateY(50px);
+}
+
+.blueThing{
+    height: 100px;
+    width: 200px;
+}
+
 @media (max-width: 790px) {
-    nav .nav-bar .sidebarOpen{
-        display: block;
+    .container0{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -80px;
     }
 
-    .menu{
+    .button1{
+        margin-bottom: 40px;
+    }
+    /* nav .nav-bar .sidebarOpen{
+        display: block;
+    } */
+
+    /* .menu{
         position: fixed;
         height: 100%;
         width: 320px;
@@ -315,7 +340,7 @@ nav .nav-bar .logo a{
     .nav-links li a{
         display: block;
         margin-top: 20px;
-    }
+    } */
 
 
-} */
+}
